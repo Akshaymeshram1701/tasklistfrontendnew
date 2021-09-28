@@ -1,0 +1,358 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #F1ECC3;
+  font-family: cursive;
+}
+
+.nav-color{
+  background-color: #04009A;
+}
+
+.b-text{
+  margin-left: 5px;
+  color: white;
+}
+
+.nav-logo{
+  height: 44px; ;
+  width: 44px;
+}
+
+.nav-buttons{
+  color: #fff;
+}
+
+.btn-outline-info{
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+  border: 2px solid white;
+}
+
+a{
+  text-decoration: none;
+}
+
+.btn-outline-info:hover{
+  background-color: white;
+  color: #333;
+}
+
+/* Login Page */
+.login-form{
+  background-color: white;
+  display: flex;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto auto;
+  padding: 70px;
+  padding-top: 120px;
+  border-radius: 20px;
+  font-family: sans-serif;
+}
+
+.login-heading{
+  position: absolute;
+  top: 180px;
+  text-align: center;
+  margin: auto;
+  color: #04009A;
+  font-family: cursive;
+}
+
+.heading-logo{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  top: 140px;
+}
+
+.login-username{
+  margin-bottom: 10px;
+}
+
+.login-usernamelabel{
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.login-usernameinput{
+  color: #333;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.login-passwordlabel{
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.login-passwordinput{
+  color: #333;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.btn-login{
+  border-radius: 9px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.create-user{
+  display: flex;
+}
+
+.create-user-text{
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+/* Register.Js */
+
+.register-form{
+  position: relative;
+  background-color: white;
+  width: 28%;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto auto;
+  padding: 70px 30px 70px ;
+  border-radius: 20px;
+  font-family: sans-serif;
+}
+
+.register-heading{
+  position: relative;
+  top: -15px;
+  text-align: center;
+  margin: auto;
+  color: #04009A;
+  font-family: cursive;
+}
+
+.space-bottom{
+  margin-bottom: 10px;
+}
+
+.register-namelabel{
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.register-nameinput{
+  color: #333;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.register-emaillabel{
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.register-emailinput{
+  color: #333;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.register-emaillabel{
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.register-emailinput{
+  color: #333;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.register-passwordlabel{
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.register-passwordinput{
+  color: #333;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.btn-register{
+  border-radius: 9px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* AddTask */
+.addtask-form{
+  background-color: white;
+  /* display: flex; */
+  width: 35%;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto auto;
+  padding: 70px;
+  padding-top: -50px;
+  border-radius: 20px;
+  font-family: sans-serif;
+}
+
+.addtask-logo{
+  height: 50px;
+  width: 50px;
+  /* justify-self: flex-start; */
+  position: relative;
+  right: 50px;
+}
+
+.addtask-main-heading{
+  position: absolute;
+  top: 190px;
+  margin-left: 90px;
+}
+
+.addtask-empty-box{
+  position: absolute;
+  top: 255px;
+  left: 500px;
+  width: 27%;
+  height: 50px;
+  border: 2px solid black;
+}
+
+.addtask-inner-heading{
+  margin-top: 90px;
+  text-align: center;
+}
+
+.input-task-name{
+  position: relative;
+  border: 2px solid black;
+  left: -20px;
+  width: 300px;
+  height: 35px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.input-task-description{
+  position: relative;
+  border: 2px solid black;
+  left: -20px;
+  width: 300px;
+  height: 35px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.addtask-button{
+  width: 100px;
+  text-align: center;
+  margin-top: 15px;
+  position: relative;
+  left: 10px;
+}
+
+.view-button{
+  position: relative;
+  top: 7px;
+  left: 20px;
+}
+
+/* View Task */
+.viewtask-form{
+  background-color: white;
+  /* display: flex; */
+  width: 99%;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto auto;
+  padding: 70px;
+  padding-top: -50px;
+  border-radius: 20px;
+  font-family: sans-serif;
+}
+
+.viewtask-logo{
+  height: 50px;
+  width: 50px;
+  /* justify-self: flex-start; */
+  position: relative;
+  right: 10px;
+  left: 290px;
+}
+
+.viewtask-main-heading{
+  position: absolute;
+  top: 190px;
+  margin-left: 380px;
+}
+
+.button-outer-line{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  border: 2px solid black;
+  padding: 10px 15px 10px 70px;
+  width: 350px;
+  position: relative;
+  left: 270px;
+}
+
+.viewtask-button{
+  margin: 2px;
+  border: none;
+  background-color: #fff;
+}
+
+.search-input{
+  display: flex;
+  margin-left: 280px;
+  margin-top: 15px;
+}
+
+.view-search-box{
+  position: relative;
+  margin-right: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+.controls-btn{
+  border: none;
+  background-color: #fff;
+}
+
+.save{
+  margin-left: 20px;
+}
+
+.updateInput{
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.input-update{
+  margin-left: 4px;
+  margin-right: 4px;
+}
